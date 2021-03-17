@@ -7,24 +7,27 @@ import cv2
 import pytesseract
 from pytesseract import Output
 from copy import deepcopy
-
-
+import threading
 
 class View():
 	def __init__(self):
 		self._boundary = None
 		self._state = 'initialized'
+		self._data_lock = threading.Lock()
 
 	def get_state(self):
-		return deepcopy(self._state)
+		result = None
+		with self._data_lock:
+			result = deepcopy(self._state)
+		return result
 
 	def calibrate(self):
 		max_tries = 20
 
 		print("Calibrating view... Try #1...")
-		image = self.screenshot()
+		image = self._screenshot()
 		image = image.convert('LA')
-		results = self.ocr(image)
+		results = self._ocr(image)
 
 		tries = 1
 		while 'continue' not in results.keys():
@@ -33,9 +36,9 @@ class View():
 				sys.exit()
 			tries += 1
 			print("Calibrating view... Try #{}...".format(tries))
-			image = self.screenshot()
+			image = self._screenshot()
 			image = image.convert('LA')
-			results = self.ocr(image)
+			results = self._ocr(image)
 		continueBox = results['continue']['loc']
 		
 		continueXLen = abs(continueBox[0][0]-continueBox[1][0])
@@ -43,21 +46,27 @@ class View():
 	
 		leftBoundary = continueBox[0][0] - (continueXLen*0.3178807947)
 		topBoundary = continueBox[0][1] - (continueYLen*1.2)
-		rightBoundary = leftBoundary + (continueXLen*5.12)
-		bottomBoundary = topBoundary + (continueYLen*18.5)
+		rightBoundary = leftBoundary + (continueXLen*5.05)
+		bottomBoundary = topBoundary + (continueYLen*17)
 		
 		self._boundary=((leftBoundary, topBoundary, rightBoundary, bottomBoundary))
 
-		'''
-		image = self.screenshot()
-		image.show()
-		results = self.ocr(image)
-		image = image.convert('LA')
-		results = self.ocr(image)
-		image.show()
-		'''
+		#image = self._screenshot()
+		#results = self._ocr(image)
+		#image.show()
 
 		self._state = 'continue'
+
+	def start(self):
+		self._thread = threading.Thread(target=self._main_loop, daemon=True)
+		self._thread.start()
+
+	def _main_loop(self):
+		while True:
+			image = self._screenshot()
+			#image.show()
+			#sys.exit()
+			results = self._ocr(image)
 
 	def _screenshot(self):
 		image = pyautogui.screenshot()
@@ -76,7 +85,7 @@ class View():
 		conf = '--oem 1'
 		results = pytesseract.image_to_data(image, output_type=Output.DICT, config=conf)
 		#results = pytesseract.image_to_string(image)
-		print('OCR results:',[text for text in results['text'] if text])
+		print('OCR results:',' '.join([text for text in results['text'] if text != '']))
 	
 		results_dict = defaultdict(dict)
 		for i in range(0, len(results["text"])):
@@ -108,7 +117,9 @@ class View():
 		plt.show()
 
 
-v = View()
-print(v.get_state())
-v.calibrate()
-print(v.get_state())
+if __name__ == '__main__':
+	v = View()
+	v.calibrate()
+	v.start()
+
+	import time; time.sleep(100)
