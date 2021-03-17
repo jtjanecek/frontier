@@ -46,12 +46,13 @@ class View():
 	
 		leftBoundary = continueBox[0][0] - (continueXLen*0.3178807947)
 		topBoundary = continueBox[0][1] - (continueYLen*1.2)
-		rightBoundary = leftBoundary + (continueXLen*5.05)
-		bottomBoundary = topBoundary + (continueYLen*17)
+		rightBoundary = leftBoundary + (continueXLen*5.2)
+		bottomBoundary = topBoundary + (continueYLen*18.5)
 		
 		self._boundary=((leftBoundary, topBoundary, rightBoundary, bottomBoundary))
 
-		#image = self._screenshot()
+		image = self._screenshot()
+		image.save("boundary.png","PNG")
 		#results = self._ocr(image)
 		#image.show()
 
@@ -79,6 +80,7 @@ class View():
 			bottom = height/2
 			self._boundary = ((left,top,right,bottom))
 		image = image.crop(self._boundary)
+		image.save("screenshot.png","PNG")
 		return image
 
 	def _ocr(self,image):
@@ -121,5 +123,8 @@ if __name__ == '__main__':
 	v = View()
 	v.calibrate()
 	v.start()
+		
+	import time
+	while True:
+		time.sleep(1)
 
-	import time; time.sleep(100)
