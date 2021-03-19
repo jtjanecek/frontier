@@ -57,6 +57,8 @@ class View():
 
 		self._state.calibrate()
 
+		logger.info("View calibrated!")
+
 	def start(self):
 		self._thread = threading.Thread(target=self._main_loop, daemon=True)
 		self._thread.start()
@@ -66,7 +68,9 @@ class View():
 			image = self._screenshot()
 			results = self._ocr(image)
 			with self._data_lock:
-				self._state.process(image, results)
+				changed = self._state.process(image, results)
+				if changed == True:
+					logger.info("New state: " + str(self._state))	
 
 	def _screenshot(self):
 		image = pyautogui.screenshot()
