@@ -1,0 +1,73 @@
+2021-03-20 21:13:57,560 - frontier.viewstatemanager - DEBUG - State import: from .known_states.factory.intro import Intro as FactoryIntro
+2021-03-20 21:13:57,560 - frontier.viewstatemanager - DEBUG - State import: from .known_states.factory.save_error import SaveError as FactorySaveError
+2021-03-20 21:13:57,561 - frontier.view - INFO - Boundary configuration found! Using boundary configuration: {'leftBoundary': 7, 'topBoundary': 88, 'rightBoundary': 764, 'bottomBoundary': 597}
+2021-03-20 21:13:57,561 - frontier.view - INFO - View calibrated!
+2021-03-20 21:13:58,024 - frontier.view - DEBUG - OCR results:                 OPEN LEVEL  EXIT                Which level do you wish to challenge?    Level 50 or Open Level?    
+2021-03-20 21:13:58,488 - frontier.view - DEBUG - OCR results:                 OPEN LEVEL  EXIT                Which level do you wish to challenge?    Level 50 or Open Level?    
+2021-03-20 21:13:58,943 - frontier.view - DEBUG - OCR results:                 OPEN LEVEL  EXIT                Which level do you wish to challenge?    Level 50 or Open Level?    
+2021-03-20 21:13:59,398 - frontier.view - DEBUG - OCR results:                 OPEN LEVEL  EXIT                Which level do you wish to challenge?    Level 50 or Open Level?    
+2021-03-20 21:13:59,846 - frontier.view - DEBUG - OCR results:                 OPEN LEVEL  EXIT                Which level do you wish to challenge?    Level 50 or Open Level?    
+2021-03-20 21:14:00,305 - frontier.view - DEBUG - OCR results:                 OPEN LEVEL  EXIT                Which level do you wish to challenge?    Level 50 or Open Level?    
+2021-03-20 21:14:00,759 - frontier.view - DEBUG - OCR results:                 OPEN LEVEL  EXIT                Which level do you wish to challenge?    Level 50 or Open Level?    
+2021-03-20 21:14:01,217 - frontier.view - DEBUG - OCR results:                 OPEN LEVEL  EXIT                Which level do you wish to challenge?    Level 50 or Open Level?    
+2021-03-20 21:14:01,680 - frontier.view - DEBUG - OCR results:                 OPEN LEVEL  EXIT                Which level do you wish to challenge?    Level 50 or Open Level?    
+2021-03-20 21:14:02,229 - frontier.view - DEBUG - OCR results:     [J Pause   Next frame   wind   « Toggle full screen  (J Turbo mode  (J vsync  (J Auto skip frames  (J skip BIOS.  (4 Auto IPS/UPS/IPF patch    (¥ Pause when inactive    eset cen OPEN LEVEL  EXIT    Which level do you wish to challenge?    Level 50 or Open Level?    
+2021-03-20 21:14:02,777 - frontier.view - DEBUG - OCR results:     [J Pause   Next frame   wind   « Toggle full screen  (J Turbo mode  (J vsync  (J Auto skip frames  (J skip BIOS.  (4 Auto IPS/UPS/IPF patch    (¥ Pause when inactive    En OPEN LEVEL  EXIT    Which level do you wish to challenge?    Level 50 or Open Level?    
+2021-03-20 21:14:03,245 - frontier.view - DEBUG - OCR results:     ©2005 Pokémon.  ©1995-2005 Nintendo  ©1995-2005 Creatures Inc.  ©1995-2005 GAME FREAK inc.
+2021-03-20 21:14:03,710 - frontier.view - DEBUG - OCR results:     ©2005 Pokémon.  ©1995-2005 Nintendo  ©1995-2005 Creatures Inc.  ©1995-2005 GAME FREAK inc.
+2021-03-20 21:14:04,160 - frontier.view - DEBUG - OCR results:     ©2005 Pokémon.  ©1995-2005 Nintendo  ©1995-2005 Creatures Inc.  ©1995-2005 GAME FREAK inc.
+2021-03-20 21:14:04,613 - frontier.view - DEBUG - OCR results:     ©2005 Pokémon.  ©1995-2005 Nintendo  ©1995-2005 Creatures Inc.  ©1995-2005 GAME FREAK inc.
+2021-03-20 21:14:05,071 - frontier.view - DEBUG - OCR results:     ©2005 Pokémon.  ©1995-2005 Nintendo  ©1995-2005 Creatures Inc.  ©1995-2005 GAME FREAK inc.
+2021-03-20 21:14:05,520 - frontier.view - DEBUG - OCR results:     ©2005 Pokémon.  ©1995-2005 Nintendo  ©1995-2005 Creatures Inc.  ©1995-2005 GAME FREAK inc.
+2021-03-20 21:14:05,862 - frontier.view - DEBUG - OCR results: 
+2021-03-20 21:14:06,234 - frontier.view - DEBUG - OCR results: 
+2021-03-20 21:14:06,639 - frontier.view - DEBUG - OCR results: 
+2021-03-20 21:14:07,051 - frontier.view - DEBUG - OCR results:     GAM LR LY 4
+2021-03-20 21:14:07,402 - frontier.view - DEBUG - OCR results: 
+2021-03-20 21:14:07,812 - frontier.view - DEBUG - OCR results:     
+2021-03-20 21:14:08,309 - frontier.view - DEBUG - OCR results:     29) 2D  HTH LEE    LI    SRPO0SECAMEENREAK inc
+2021-03-20 21:14:08,702 - frontier.view - DEBUG - OCR results:     
+2021-03-20 21:14:09,054 - frontier.view - DEBUG - OCR results: 
+2021-03-20 21:14:09,498 - frontier.view - DEBUG - OCR results:     CONTINUE    PLAYER TYLER TIME  POKEDEX 384 BADGES    
+2021-03-20 21:14:09,886 - frontier.view - DEBUG - OCR results:     CONTINUE    PLAYER TYLER TIME  POKEDEX 384 BADGES    
+2021-03-20 21:14:10,233 - frontier.view - DEBUG - OCR results: 
+2021-03-20 21:14:10,668 - frontier.view - DEBUG - OCR results:          
+2021-03-20 21:14:11,063 - frontier.view - DEBUG - OCR results:                                   y to    r    r    I'm so
+2021-03-20 21:14:11,461 - frontier.view - DEBUG - OCR results:                                   I'm sorry to say this, but you didn’
+2021-03-20 21:14:11,890 - frontier.view - DEBUG - OCR results:                                   I'm sorry to say this, but you didn't  save before you quit p    
+2021-03-20 21:14:12,340 - frontier.view - DEBUG - OCR results:                                   say this, but you didn’t  you quit playing last time. w    I'm sorry to              save before    
+2021-03-20 21:14:12,342 - frontier.view - INFO - New state: {'location': 'factory', 'context': 'reset game without saving text'}
+2021-03-20 21:14:12,798 - frontier.view - DEBUG - OCR results:                                   say this, but you didn’t  you quit playing last time. "™    I'm sorry to              save before    
+2021-03-20 21:14:13,270 - frontier.view - DEBUG - OCR results:                                   say this, but you didn’t  you quit playing last time."    I'm sorry to            save before    
+2021-03-20 21:14:13,731 - frontier.view - DEBUG - OCR results:                                   say this, but you didn’t  you quit playing last time. "™    I'm sorry to              save before    
+2021-03-20 21:14:14,105 - frontier.view - DEBUG - OCR results:                              
+2021-03-20 21:14:14,502 - frontier.view - DEBUG - OCR results:                                   esult, you have    r    a    As
+2021-03-20 21:14:14,931 - frontier.view - DEBUG - OCR results:                                   As a result, you have been disqualified    trom you
+2021-03-20 21:14:15,360 - frontier.view - DEBUG - OCR results:                                   As a result, you have been disqualified  from your challenge.    
+2021-03-20 21:14:15,800 - frontier.view - DEBUG - OCR results:                                   As a result, you have been disqualified  from your challenge.    
+2021-03-20 21:14:16,228 - frontier.view - DEBUG - OCR results:                                   As a result, you have been disqualified  from your challenge.    
+2021-03-20 21:14:16,607 - frontier.view - DEBUG - OCR results:          
+2021-03-20 21:14:16,986 - frontier.view - DEBUG - OCR results:          
+2021-03-20 21:14:17,386 - frontier.view - DEBUG - OCR results:                                   e the int    r    Whe
+2021-03-20 21:14:17,806 - frontier.view - DEBUG - OCR results:                                   Where the intelligence of TRAINERS
+2021-03-20 21:14:18,242 - frontier.view - DEBUG - OCR results:                                   Where the intelligence of TRAINERS  is put to the teste    
+2021-03-20 21:14:18,668 - frontier.view - DEBUG - OCR results:                                   Where the intelligence of TRAINERS  is put to the test!®    
+2021-03-20 21:14:18,669 - frontier.view - INFO - New state: {'location': 'factory', 'context': 'intro text'}
+2021-03-20 21:14:19,104 - frontier.view - DEBUG - OCR results:                                   Where the intelligence of TRAINERS  is put to the test!®    
+2021-03-20 21:14:19,540 - frontier.view - DEBUG - OCR results:                                   Where the intelligence of TRAINERS  is put to the test!®    
+2021-03-20 21:14:19,974 - frontier.view - DEBUG - OCR results:                                   Where the intelligence of TRAINERS  is put to the teste    
+2021-03-20 21:14:20,406 - frontier.view - DEBUG - OCR results:                                   Where the intelligence of TRAINERS  is put to the test!®    
+2021-03-20 21:14:20,839 - frontier.view - DEBUG - OCR results:                                   Where the intelligence of TRAINERS  is put to the test!®    
+2021-03-20 21:14:21,273 - frontier.view - DEBUG - OCR results:                                   Where the intelligence of TRAINERS  is put to the teste    
+2021-03-20 21:14:21,701 - frontier.view - DEBUG - OCR results:                                   Where the intelligence of TRAINERS  is put to the test!®    
+2021-03-20 21:14:22,125 - frontier.view - DEBUG - OCR results:                                   Where the intelligence of TRAINERS  is put to the test!®    
+2021-03-20 21:14:22,556 - frontier.view - DEBUG - OCR results:                                   Where the intelligence of TRAINERS  is put to the test!®    
+2021-03-20 21:14:23,000 - frontier.view - DEBUG - OCR results:                                   Where the intelligence of TRAINERS  is put to the teste    
+2021-03-20 21:14:23,423 - frontier.view - DEBUG - OCR results:                                   Where the intelligence of TRAINERS  is put to the test!®    
+2021-03-20 21:14:23,851 - frontier.view - DEBUG - OCR results:                                   Where the intelligence of TRAINERS  is put to the test!®    
+2021-03-20 21:14:24,275 - frontier.view - DEBUG - OCR results:                                   Where the intelligence of TRAINERS  is put to the test!®    
+2021-03-20 21:14:24,690 - frontier.view - DEBUG - OCR results:                                   Where the intelligence of TRAINERS  is put to the test!®    
+2021-03-20 21:14:25,104 - frontier.view - DEBUG - OCR results:                                   Where the intelligence of TRAINERS  is put to the test!®    
+2021-03-20 21:14:25,515 - frontier.view - DEBUG - OCR results:                                   Where the intelligence of TRAINERS  is put to the test!®    
+2021-03-20 21:14:25,928 - frontier.view - DEBUG - OCR results:                                   Where the intelligence of TRAINERS  is put to the test!®    
+2021-03-20 21:14:26,340 - frontier.view - DEBUG - OCR results:                                   Where the intelligence of TRAINERS  is put to the test!®    
