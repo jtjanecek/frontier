@@ -83,9 +83,7 @@ class View():
 			image = self._screenshot()
 			results = self._ocr(image)
 			with self._data_lock:
-				changed = self._state_manager.update_state(image, results)
-				if changed == True:
-					logger.info("New state: " + str(self._state_manager.get_state()))	
+				self._state_manager.update_state(image, results)
 
 	def _screenshot(self):
 		image = pyautogui.screenshot()

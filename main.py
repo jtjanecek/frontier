@@ -23,3 +23,4 @@ v.start()
 import time
 while True:
 	time.sleep(1)
+	logger.info(f"State: {v.get_state()}")

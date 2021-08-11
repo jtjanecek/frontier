@@ -1,15 +1,22 @@
+import os
 import re
 from nltk.corpus import stopwords 
 from nltk.tokenize import word_tokenize 
 import logging
-logger = logging.getLogger("frontier.utils")
+logger = logging.getLogger("utils")
+logger.setLevel(logging.DEBUG)
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+filehandler = logging.FileHandler(os.path.join('logs','utils.log'), mode='w')
+filehandler.setFormatter(formatter)
+filehandler.setLevel(logging.DEBUG)
+logger.addHandler(filehandler)
 
-def text_similarity(expected: str, got: str):
-	expected = re.sub(r'[^\w\s]', '', expected.lower()) 
-	got = re.sub(r'[^\w\s]', '', got.lower()) 
+def text_similarity(expected_input: str, got_input: str):
+	expected = re.sub(r'[^\w\s]', '', expected_input.lower()) 
+	got = re.sub(r'[^\w\s]', '', got_input.lower()) 
 
-	expected = ' '.join(sorted(expected.split()))
-	got = ' '.join(sorted(got.split()))
+	expected = ' '.join(expected.split())
+	got = ' '.join(got.split())
 
 	word_list = expected.split()
 
@@ -43,5 +50,6 @@ def text_similarity(expected: str, got: str):
 		cosine = 0
 	else:
 		cosine = c / float((sum(l1)*sum(l2))**0.5) 
+	logger.debug(f"text_sim: expected:[{expected}] got:[{got}] | cosine: {cosine}") 
 	return cosine
 

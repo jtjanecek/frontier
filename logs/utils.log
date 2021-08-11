@@ -1,0 +1,72 @@
+2021-03-21 16:56:16,130 - utils - DEBUG - text_sim: expected:[continue] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:16,131 - utils - DEBUG - text_sim: expected:[where the intelligence of trainers is put to the test] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:16,131 - utils - DEBUG - text_sim: expected:[welcome to the battle factory] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:16,131 - utils - DEBUG - text_sim: expected:[i am your guide to the battle swap single tournament] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:16,132 - utils - DEBUG - text_sim: expected:[would you like to take the battle swap single challenge] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:16,132 - utils - DEBUG - text_sim: expected:[before you begin your challenge i need to save the game is that okay] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:16,132 - utils - DEBUG - text_sim: expected:[battle frontier player badges would you like to save the game] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:16,132 - utils - DEBUG - text_sim: expected:[battle frontier player badges there is already a saved file is it okay to overwrite it] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:16,133 - utils - DEBUG - text_sim: expected:[please step this way] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:16,133 - utils - DEBUG - text_sim: expected:[which level do you wish to challenge level 50 or open level] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:16,133 - utils - DEBUG - text_sim: expected:[im sorry to say this but you didnt save before you quit playing last time] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:16,134 - utils - DEBUG - text_sim: expected:[as a result you have been disqualified from your challenge] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:16,666 - utils - DEBUG - text_sim: expected:[continue] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:16,667 - utils - DEBUG - text_sim: expected:[where the intelligence of trainers is put to the test] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:16,667 - utils - DEBUG - text_sim: expected:[welcome to the battle factory] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:16,667 - utils - DEBUG - text_sim: expected:[i am your guide to the battle swap single tournament] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:16,668 - utils - DEBUG - text_sim: expected:[would you like to take the battle swap single challenge] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:16,668 - utils - DEBUG - text_sim: expected:[before you begin your challenge i need to save the game is that okay] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:16,668 - utils - DEBUG - text_sim: expected:[battle frontier player badges would you like to save the game] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:16,669 - utils - DEBUG - text_sim: expected:[battle frontier player badges there is already a saved file is it okay to overwrite it] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:16,669 - utils - DEBUG - text_sim: expected:[please step this way] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:16,669 - utils - DEBUG - text_sim: expected:[which level do you wish to challenge level 50 or open level] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:16,670 - utils - DEBUG - text_sim: expected:[im sorry to say this but you didnt save before you quit playing last time] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:16,670 - utils - DEBUG - text_sim: expected:[as a result you have been disqualified from your challenge] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:17,207 - utils - DEBUG - text_sim: expected:[continue] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:17,207 - utils - DEBUG - text_sim: expected:[where the intelligence of trainers is put to the test] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:17,208 - utils - DEBUG - text_sim: expected:[welcome to the battle factory] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:17,208 - utils - DEBUG - text_sim: expected:[i am your guide to the battle swap single tournament] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:17,208 - utils - DEBUG - text_sim: expected:[would you like to take the battle swap single challenge] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:17,209 - utils - DEBUG - text_sim: expected:[before you begin your challenge i need to save the game is that okay] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:17,209 - utils - DEBUG - text_sim: expected:[battle frontier player badges would you like to save the game] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:17,209 - utils - DEBUG - text_sim: expected:[battle frontier player badges there is already a saved file is it okay to overwrite it] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:17,210 - utils - DEBUG - text_sim: expected:[please step this way] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:17,210 - utils - DEBUG - text_sim: expected:[which level do you wish to challenge level 50 or open level] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:17,210 - utils - DEBUG - text_sim: expected:[im sorry to say this but you didnt save before you quit playing last time] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:17,211 - utils - DEBUG - text_sim: expected:[as a result you have been disqualified from your challenge] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:17,732 - utils - DEBUG - text_sim: expected:[continue] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:17,733 - utils - DEBUG - text_sim: expected:[where the intelligence of trainers is put to the test] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:17,733 - utils - DEBUG - text_sim: expected:[welcome to the battle factory] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:17,733 - utils - DEBUG - text_sim: expected:[i am your guide to the battle swap single tournament] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:17,733 - utils - DEBUG - text_sim: expected:[would you like to take the battle swap single challenge] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:17,734 - utils - DEBUG - text_sim: expected:[before you begin your challenge i need to save the game is that okay] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:17,734 - utils - DEBUG - text_sim: expected:[battle frontier player badges would you like to save the game] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:17,734 - utils - DEBUG - text_sim: expected:[battle frontier player badges there is already a saved file is it okay to overwrite it] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:17,735 - utils - DEBUG - text_sim: expected:[please step this way] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:17,735 - utils - DEBUG - text_sim: expected:[which level do you wish to challenge level 50 or open level] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:17,735 - utils - DEBUG - text_sim: expected:[im sorry to say this but you didnt save before you quit playing last time] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:17,736 - utils - DEBUG - text_sim: expected:[as a result you have been disqualified from your challenge] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:18,261 - utils - DEBUG - text_sim: expected:[continue] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:18,261 - utils - DEBUG - text_sim: expected:[where the intelligence of trainers is put to the test] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:18,261 - utils - DEBUG - text_sim: expected:[welcome to the battle factory] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:18,261 - utils - DEBUG - text_sim: expected:[i am your guide to the battle swap single tournament] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:18,262 - utils - DEBUG - text_sim: expected:[would you like to take the battle swap single challenge] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:18,262 - utils - DEBUG - text_sim: expected:[before you begin your challenge i need to save the game is that okay] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:18,262 - utils - DEBUG - text_sim: expected:[battle frontier player badges would you like to save the game] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:18,263 - utils - DEBUG - text_sim: expected:[battle frontier player badges there is already a saved file is it okay to overwrite it] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:18,263 - utils - DEBUG - text_sim: expected:[please step this way] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:18,263 - utils - DEBUG - text_sim: expected:[which level do you wish to challenge level 50 or open level] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:18,264 - utils - DEBUG - text_sim: expected:[im sorry to say this but you didnt save before you quit playing last time] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:18,264 - utils - DEBUG - text_sim: expected:[as a result you have been disqualified from your challenge] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:18,797 - utils - DEBUG - text_sim: expected:[continue] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:18,798 - utils - DEBUG - text_sim: expected:[where the intelligence of trainers is put to the test] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:18,798 - utils - DEBUG - text_sim: expected:[welcome to the battle factory] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:18,798 - utils - DEBUG - text_sim: expected:[i am your guide to the battle swap single tournament] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:18,798 - utils - DEBUG - text_sim: expected:[would you like to take the battle swap single challenge] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:18,799 - utils - DEBUG - text_sim: expected:[before you begin your challenge i need to save the game is that okay] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:18,799 - utils - DEBUG - text_sim: expected:[battle frontier player badges would you like to save the game] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:18,799 - utils - DEBUG - text_sim: expected:[battle frontier player badges there is already a saved file is it okay to overwrite it] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:18,800 - utils - DEBUG - text_sim: expected:[please step this way] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:18,800 - utils - DEBUG - text_sim: expected:[which level do you wish to challenge level 50 or open level] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:18,800 - utils - DEBUG - text_sim: expected:[im sorry to say this but you didnt save before you quit playing last time] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
+2021-03-21 16:56:18,801 - utils - DEBUG - text_sim: expected:[as a result you have been disqualified from your challenge] got:[gas pokemon hr eg select the second pokemon] | cosine: 0.0
